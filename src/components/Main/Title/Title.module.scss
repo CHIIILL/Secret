@@ -1,0 +1,98 @@
+
+.aboutBtn{
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 64px;
+    border-radius: 10px;
+    background-color: #068486;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.watchBtn{
+    width: 230px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    font-family: Andada Pro;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2D2727;
+    background-color: #FFFFFF;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 77px;
+}
+
+.title{
+    font-family: Montserrat;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 84px;
+    color: #292F2E;
+    margin-bottom: 5px;
+}
+
+.subtitle{
+    font-family: Source Sans Pro;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #292F2E;
+    margin-bottom: 17px;
+}
+
+.text{
+    font-family: Andada Pro;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #2D2727;
+    width: 481px;
+    margin-bottom: 45px;
+}
+
+.socialNetworks{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    span{
+        font-family: Andada Pro;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19px;
+        color: #697270;
+    }
+}
+
+.icons{
+    display: flex;
+    gap: 55px;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.box{
+    padding-top: 90px;
+}
+
+.decorImg{
+    width: 490px;
+    img{
+        width: 100%;
+    }
+}

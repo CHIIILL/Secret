@@ -1,0 +1,62 @@
+
+
+.cardsBox{
+    display: flex;
+    gap: 65px;
+}
+
+.card{
+    width: 350px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #068486;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+        width: 80px;
+        padding-top: 30px;
+        padding-bottom: 25px;
+    }
+}
+
+.cardTitle{
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.description{
+    width: 284px;
+    text-align: center;
+    font-family: Andada Pro;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.title{
+    font-family: Andada Pro;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.subtitle{
+    font-family: Andada Pro;
+    font-size: 20px;
+    font-weight: 400;
+    width: 580px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+}

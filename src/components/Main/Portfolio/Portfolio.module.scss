@@ -1,0 +1,60 @@
+
+.title{
+    font-family: Andada Pro;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 63px;
+}
+
+.description{
+    font-family: Andada Pro;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    width: 560px;
+    height: 72px;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.active{
+    font-family: Andada Pro;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 27px;
+    border-bottom: 1px solid #068486;
+    color: #068486;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.notActive{
+    font-family: Andada Pro;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 27px;
+    color: #2D2727;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.list{
+    display: flex;
+    gap: 48px;
+}
+
+.box{
+    position: relative;
+    width: 1130px;
+    height: 600px;
+    
+    
+}
+

@@ -1,0 +1,94 @@
+
+.aboutUsImg{
+    height: 676px;
+    padding-top: 22px;
+    width: 732px;
+    img{
+        width: 100%;
+    }
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    margin-bottom: 24px;
+}
+
+.cardItem{
+    width: 276px;
+    span{
+        font-family: Roboto;
+        font-size: 48px;
+        font-weight: 600;
+        color: #068486;
+    }
+    p{
+        font-family: Andada Pro;
+        font-size: 20px;
+        font-weight: 400;
+  
+    }
+}
+
+.cardsLines{
+    display: flex;
+    gap: 47px;
+}
+
+.points{
+    margin-bottom: 35px;
+    max-width: 64px;
+    img{
+        width: 100%;
+    }
+}
+
+.title{
+    font-family: Andada Pro;
+    font-size: 25px;
+    font-weight: 700;
+    color: #068486;
+    margin-bottom: 12px;
+}
+
+.subtitle{
+    font-family: Andada Pro;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    margin-bottom: 31px;
+    color: #292F2E;
+}
+
+.description{
+    font-family: Andada Pro;
+    font-size: 24px;
+    font-weight: 700;
+    color: #292F2E;
+    margin-bottom: 28px;
+
+}
+
+.section{
+  display: flex;
+  gap: 121px;
+  margin-bottom: 120px;
+}
+
+.location{
+    display: flex;
+    gap: 13px;
+    span{
+        font-family: Andada Pro;
+        font-size: 18px;
+        font-weight: 400;
+        color: #2D2727;
+    }
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}

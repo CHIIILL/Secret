@@ -1,0 +1,74 @@
+
+.hoverTitle{
+    font-family: Andada Pro;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    border-bottom: 3px solid #068486;
+    color: #2D2727;
+}
+
+.hoverSubtitle{
+    font-family: Andada Pro;
+    font-size: 23px;
+    font-weight: 800;
+    line-height: 27px;
+}
+
+.cardsContainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.image, .hoverContainer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+
+} 
+
+.image img{
+    width: 100%;
+}
+
+.hoverContainer{
+    background: rgba(217, 217, 217, 0.80);
+    border-radius: 8px;
+    top: 0;
+    left: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.cardsContainer:hover .hoverContainer{
+    top: 0;
+    left: 0;
+}
+
+.hoverText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+}
+
+.semiSquareTop{
+    display: flex;
+    gap: 270px;
+    padding-top: 25px;
+}
+
+.semiSquareBottom{
+    display: flex;
+    gap: 270px;
+    padding-bottom: 25px;
+}
