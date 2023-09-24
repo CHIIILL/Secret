@@ -1,0 +1,198 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 22px 30px 0 30px;
+
+  @media (max-width: 768px) {
+    padding: 22px 45px 0 30px;
+  }
+  @media (max-width: 500px) {
+    padding: 22px 35px 0 20px;
+  }
+  @media (max-width: 420px) {
+    padding: 22px 25px 0 10px;
+  }
+  @media (max-width: 360px) {
+    padding: 22px 25px 0 0;
+  }
+}
+
+.box {
+  max-width: 1190px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  @media (min-width: 1901px) {
+    max-width: 1520px;
+  }
+  @media (max-width: 768px) {
+    width: 95%;
+  }
+  @media (max-width: 360px) {
+    margin-left: 30px;
+  }
+}
+
+.nav {
+  max-width: 892px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  @media (min-width: 1901px) {
+    max-width: 1200px;
+  }
+  @media (max-width: 768px) {
+    max-width: 800px;
+    padding-right: 30px;
+  }
+  @media (max-width: 360px) {
+    padding-right: initial;
+  }
+}
+
+.bgLine {
+  @media (max-width: 360px) {
+    &::before {
+      content: '';
+      position: absolute;
+      left: 80%;
+      width: 20%;
+      height: 130px;
+      background-color: #42af95;
+      z-index: -1;
+    }
+  }
+}
+
+/* .fixed{
+    position: fixed;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+    top: 0;
+    left: 0;
+    z-index: 90;
+    padding-bottom: 15px;
+}  */
+
+.logo {
+  @media (max-width: 360px) {
+    order: 1;
+  }
+
+  @media (max-width: 768px) {
+    width: 46px;
+  }
+}
+
+.list {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+  @media (max-width: 1000px) {
+    gap: 20px;
+  }
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.listItem {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-decoration: none;
+  color: black;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.active {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-decoration: none;
+  border-bottom: 1px solid #068486;
+  color: #068486;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.btn {
+  padding: 0 15px 0 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #068486;
+
+  @media (max-width: 1150px) {
+    margin-left: 20px;
+  }
+  @media (max-width: 768px) {
+    padding: 9px 7px 9px 7px;
+  }
+  span {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #ffffff;
+
+    @media (max-width: 768px) {
+      font-size: 14px;
+      line-height: 17px;
+    }
+  }
+  img {
+    @media (max-width: 768px) {
+      width: 15px;
+    }
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.btnBrowser {
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.none {
+  @media (max-width: 360px) {
+    display: none;
+  }
+}
+
+.btnTablet {
+  @media (min-width: 769px) {
+    display: none;
+  }
+  @media (max-width: 360px) {
+    padding: 10px;
+    order: 2;
+  }
+}
+
+.logoBrowzer {
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.burger {
+  @media (min-width: 769px) {
+    display: none;
+  }
+  @media (max-width: 360px) {
+    order: 3;
+    margin-left: 20px;
+  }
+}

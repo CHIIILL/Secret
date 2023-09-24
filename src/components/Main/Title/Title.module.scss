@@ -1,0 +1,260 @@
+.aboutBtn {
+  padding: 20px 40px 20px 40px;
+  border-radius: 10px;
+  background-color: #068486;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+
+  @media (max-width: 768px) {
+    font-size: 15px;
+    line-height: 18px;
+    padding: 12px 25px 12px 25px;
+  }
+  @media (max-width: 360px) {
+    font-size: 12px;
+    line-height: 15px;
+    padding: 10px 25px 10px 25px;
+  }
+}
+
+.watchBtn {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  font-family: Andada Pro;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2d2727;
+  background-color: #ffffff;
+  @media (max-width: 768px) {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  @media (max-width: 360px) {
+    font-size: 12px;
+    line-height: 14px;
+    background-color: transparent;
+  }
+  @media (max-width: 360px) {
+    font-size: 12px;
+    line-height: 14px;
+    gap: 3px;
+  }
+  img {
+    @media (max-width: 768px) {
+      width: 20px;
+    }
+  }
+  img {
+    @media (max-width: 768px) {
+      width: 20px;
+    }
+    @media (max-width: 360px) {
+      width: 18px;
+    }
+  }
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 77px;
+  @media (max-width: 768px) {
+    margin-bottom: 50px;
+  }
+  @media (max-width: 360px) {
+    margin-bottom: 34px;
+    gap: 22px;
+  }
+}
+
+.socialNetworks {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  img {
+    @media (max-width: 360px) {
+      width: 15px;
+    }
+  }
+  @media (max-width: 768px) {
+    gap: 12px;
+  }
+  @media (max-width: 360px) {
+    gap: 14px;
+  }
+}
+
+.title {
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 84px;
+  color: #292f2e;
+  margin-bottom: 5px;
+
+  @media (max-width: 768px) {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  @media (max-width: 360px) {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+
+.subtitle {
+  font-family: Andada Pro;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #292f2e;
+  margin-bottom: 17px;
+
+  @media (max-width: 768px) {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  @media (max-width: 360px) {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
+.text {
+  font-family: Andada Pro;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #2d2727;
+  margin-bottom: 45px;
+  max-width: 481px;
+  flex-direction: column;
+  gap: 17px;
+  @media (max-width: 768px) {
+    max-width: 355px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  @media (max-width: 480px) {
+    padding-right: 20px;
+  }
+  @media (max-width: 360px) {
+    max-width: 220px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  span {
+    font-family: Andada Pro;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    color: #697270;
+
+    @media (max-width: 768px) {
+      font-size: 12px;
+      line-height: 14px;
+    }
+  }
+}
+
+.icons {
+  display: flex;
+  gap: 55px;
+
+  @media (max-width: 768px) {
+    gap: 40px;
+  }
+  @media (max-width: 360px) {
+    gap: 33px;
+  }
+
+  img {
+    @media (max-width: 768px) {
+      width: 15px;
+    }
+  }
+}
+
+.section {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  margin: 20px 0 35px 0;
+  @media (max-width: 1200px) {
+    padding: 0 35px 0 35px;
+  }
+  @media (max-width: 600px) {
+    justify-content: start;
+    padding-left: 55px;
+  }
+  @media (max-width: 550px) {
+    padding-left: 45px;
+  }
+  @media (max-width: 450px) {
+    padding-left: 35px;
+  }
+  @media (max-width: 360px) {
+    padding-left: 30px;
+    padding-top: 20px;
+  }
+
+  @media (max-width: 360px) {
+    &::before {
+      content: '';
+      position: absolute;
+      left: 80%;
+      width: 20%;
+      height: 640px;
+      background-color: #42af95;
+      z-index: -1;
+    }
+  }
+}
+
+.box {
+  padding-top: 90px;
+  @media (max-width: 768px) {
+    padding-top: 40px;
+  }
+  @media (max-width: 360px) {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-top: 0px;
+  }
+}
+
+.titlePhoneImg {
+  @media (min-width: 361px) {
+    display: none;
+  }
+  width: 330px;
+  height: 243px;
+  margin-bottom: 24px;
+  box-shadow: 0px 4px 8px 0px #00000040;
+
+  img {
+    width: 330px;
+    height: 243px;
+    object-fit: cover;
+  }
+}
+
+.decorImg {
+  width: 490px;
+  @media (max-width: 768px) {
+    width: 224px;
+  }
+  @media (max-width: 600px) {
+    display: none;
+  }
+  img {
+    width: 100%;
+  }
+}

@@ -1,0 +1,155 @@
+.section {
+  max-height: 347px;
+  padding: 75px 20px 75px 20px;
+  background-image: url('../../../assets/img/Partners.svg');
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 120px;
+  @media (max-width: 768px) {
+    max-height: 182px;
+    margin-bottom: 60px;
+  }
+  @media (max-width: 360px) {
+    max-height: 111px;
+    margin-bottom: 35px;
+  }
+}
+
+.icons {
+  padding: 39px 79px 17px 79px;
+  border-radius: 10px;
+  border: 1px solid #a99595;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 980px) {
+    padding: 15px 20px 8px 20px;
+  }
+  @media (max-width: 768px) {
+    padding: 22px 23px 26px 10px;
+  }
+  @media (max-width: 390px) {
+    padding: 10px 10px 12px 5px;
+  }
+  @media (max-width: 500px) {
+    display: none;
+  }
+}
+
+.iconsLine {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+
+  @media (max-width: 768px) {
+    gap: 20px;
+  }
+  @media (max-width: 370px) {
+    gap: 13px;
+  }
+  img {
+    @media (max-width: 768px) {
+      height: 30px;
+    }
+    @media (max-width: 790px) {
+      height: 29px;
+    }
+    @media (max-width: 455px) {
+      height: 20px;
+    }
+  }
+}
+
+.title {
+  font-family: Andada Pro;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 33px;
+  color: #068486;
+
+  @media (max-width: 768px) {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
+.subtitle {
+  width: 398px;
+  font-family: Andada Pro;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  color: #292f2e;
+
+  @media (max-width: 768px) {
+    width: 150px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  @media (max-width: 420px) {
+    width: 120px;
+  }
+  @media (max-width: 360px) {
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+.slider {
+  position: relative;
+  max-width: 200px;
+  height: 70px;
+  overflow: hidden;
+  display: flex;
+  padding-left: 30px;
+  align-items: center;
+  @media (min-width: 501px) {
+    display: none;
+  }
+  @media (max-width: 357px) {
+    padding-left: 27px;
+  }
+  @media (max-width: 346px) {
+    padding-left: 24px;
+  }
+}
+
+.slides {
+  display: flex;
+  width: 300%;
+  transition: transform 0.5s ease-in-out;
+  top: 150px;
+  gap: 30px;
+}
+
+.slide {
+  flex: 1;
+  min-width: 33.33%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.navigation {
+  position: absolute;
+  bottom: 0;
+  left: 55%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+.bar {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  cursor: pointer;
+}
+
+.bar.active {
+  background-color: #068486;
+}

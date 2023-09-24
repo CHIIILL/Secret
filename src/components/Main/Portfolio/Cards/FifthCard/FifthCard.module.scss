@@ -1,0 +1,81 @@
+.cardsContainer {
+  position: relative;
+  width: 380px;
+  height: 204px;
+  @media (max-width: 768px) {
+    width: 155px;
+    height: 86px;
+  }
+  @media (max-width: 550px) {
+    width: 142px;
+    height: 148px;
+    border-radius: 3px;
+  }
+}
+
+.blurImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+
+  @media (max-width: 768px) {
+    width: 155px;
+    height: 86px;
+    display: none;
+  }
+}
+
+.blurTabletImg {
+  @media (min-width: 769px) {
+    display: none;
+  }
+  @media (max-width: 768px) {
+    width: 146px;
+    height: 47px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  @media (max-width: 550px) {
+    width: 133px;
+    height: 49px;
+    top: 84px;
+  }
+}
+
+.active1 {
+  @media (max-width: 550px) {
+    display: none;
+  }
+}
+
+.active2 {
+  @media (min-width: 551px) {
+    display: none;
+  }
+}
+
+.cardsContainer:hover .blurImg {
+  opacity: 1;
+}
+
+.cardsContainer:hover .blurTabletImg {
+  opacity: 1;
+}
+
+.cover {
+  object-fit: cover;
+  @media (max-width: 768px) {
+    width: 155px;
+    height: 86px;
+  }
+  @media (max-width: 550px) {
+    width: 142px;
+    height: 148px;
+    border-radius: 3px;
+  }
+}

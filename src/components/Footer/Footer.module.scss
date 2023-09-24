@@ -1,0 +1,395 @@
+.description {
+  font-family: Andada Pro;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #ffffff;
+  width: 301px;
+  @media (max-width: 1020px) {
+    width: 150px;
+  }
+  @media (max-width: 768px) {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
+
+.titles {
+  font-family: Andada Pro;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #ffffff;
+  margin-bottom: 16px;
+
+  @media (max-width: 768px) {
+    font-size: 24px;
+    line-height: 31px;
+  }
+  @media (max-width: 360px) {
+    font-size: 24px;
+    line-height: 31px;
+  }
+}
+
+.menuItem {
+  font-family: Andada Pro;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #ffffff;
+  text-decoration: none;
+  @media (max-width: 768px) {
+    font-size: 13px;
+    line-height: 15px;
+  }
+  @media (max-width: 360px) {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.menuList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  @media (max-width: 768px) {
+    gap: 16px;
+  }
+  @media (max-width: 360px) {
+    width: 75px;
+  }
+}
+
+.active {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: Andada Pro;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: black;
+  @media (max-width: 768px) {
+    font-size: 13px;
+    line-height: 15px;
+  }
+  @media (max-width: 360px) {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.active::before {
+  content: '\2022';
+  display: inline-block;
+  width: 10px;
+  font-size: 30px;
+  margin-right: 1px;
+}
+
+.servicesList {
+  font-family: Andada Pro;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  @media (max-width: 768px) {
+    font-size: 13px;
+    line-height: 15px;
+    gap: 16px;
+  }
+  @media (max-width: 360px) {
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+.mapPoint {
+  display: flex;
+  gap: 15px;
+  align-items: start;
+  margin-bottom: 22px;
+  @media (max-width: 360px) {
+    align-items: center;
+  }
+  span {
+    font-family: Andada Pro;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #ffffff;
+    max-width: 262px;
+
+    @media (max-width: 768px) {
+      font-size: 13px;
+      line-height: 15px;
+      max-width: 180px;
+    }
+    @media (max-width: 360px) {
+      font-size: 15px;
+      line-height: 18px;
+      max-width: 230px;
+    }
+  }
+  img {
+    @media (max-width: 768px) {
+      width: 15px;
+    }
+  }
+}
+
+.emailsBlock {
+  display: flex;
+  gap: 15px;
+  align-items: start;
+  @media (max-width: 360px) {
+    align-items: center;
+  }
+  img {
+    @media (max-width: 768px) {
+      width: 15px;
+    }
+  }
+  span {
+    @media (max-width: 360px) {
+      font-size: 15px;
+      line-height: 18px;
+    }
+  }
+}
+
+.emails {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  span {
+    font-family: Andada Pro;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #ffffff;
+
+    @media (max-width: 768px) {
+      font-size: 13px;
+      line-height: 15px;
+    }
+  }
+}
+
+.box {
+  background-color: #068486;
+  display: flex;
+  gap: 106px;
+  padding: 52px 34px 104px 34px;
+  justify-content: center;
+  align-items: start;
+  @media (max-width: 1150px) {
+    gap: 35%;
+    align-items: start;
+    padding-bottom: 42px;
+  }
+  @media (max-width: 1020px) {
+    gap: 40%;
+  }
+  @media (max-width: 900px) {
+    padding-left: 60px;
+    gap: 35%;
+  }
+  @media (max-width: 768px) {
+    padding: 25px 34px 26px 34px;
+    flex-direction: initial;
+    gap: 45px;
+  }
+  @media (max-width: 640px) {
+    flex-direction: column;
+    padding: 25px 34px 26px 80px;
+  }
+  @media (max-width: 560px) {
+    padding: 25px 34px 26px 50px;
+  }
+  @media (max-width: 500px) {
+    padding: 25px 34px 26px 30px;
+  }
+  @media (max-width: 480px) {
+    padding: 52px 34px 104px 20px;
+  }
+  @media (max-width: 360px) {
+    padding: 52px 34px 104px 30px;
+  }
+}
+
+.firstBlock {
+  display: flex;
+  flex-direction: column;
+  @media (max-width: 360px) {
+    order: 3;
+  }
+  img {
+    width: 80px;
+    margin-bottom: 14px;
+  }
+  p {
+    margin-bottom: 80px;
+    @media (max-width: 1200px) {
+      margin-bottom: 60px;
+    }
+    @media (max-width: 1000px) {
+      margin-bottom: 50px;
+    }
+    @media (max-width: 875px) {
+      margin-bottom: 20px;
+    }
+  }
+  .icons {
+    display: flex;
+    gap: 45px;
+
+    @media (max-width: 768px) {
+      gap: 25px;
+    }
+    img {
+      width: 25px;
+
+      @media (max-width: 768px) {
+        width: 15px;
+      }
+    }
+  }
+}
+
+.secondBlock {
+  @media (max-width: 360px) {
+    order: 2;
+  }
+}
+
+.thirdBlock {
+  @media (max-width: 360px) {
+    order: 1;
+  }
+}
+
+.fourthBlock {
+  @media (max-width: 1150px) {
+    display: none;
+  }
+  @media (max-width: 768px) {
+    display: block;
+  }
+  @media (max-width: 360px) {
+    order: 4;
+  }
+}
+
+.fourthBlock2 {
+  display: none;
+  @media (max-width: 1150px) {
+    display: block;
+    margin-left: 4%;
+    padding-bottom: 35px;
+  }
+  @media (max-width: 1025px) {
+    display: block;
+    margin-left: 7%;
+    padding-bottom: 35px;
+  }
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.line1 {
+  display: flex;
+  gap: 97px;
+
+  @media (max-width: 1150px) {
+    gap: 30%;
+  }
+  @media (max-width: 1020px) {
+    gap: 70%;
+  }
+  @media (max-width: 900px) {
+    gap: 50%;
+  }
+  @media (max-width: 768px) {
+    gap: 20px;
+  }
+  @media (max-width: 640px) {
+    gap: 67%;
+  }
+  @media (max-width: 570px) {
+    gap: 52%;
+  }
+  @media (max-width: 520px) {
+    gap: 50%;
+  }
+  @media (max-width: 460px) {
+    gap: 40%;
+  }
+  @media (max-width: 420px) {
+    gap: 60%;
+  }
+  @media (max-width: 390px) {
+    gap: 50%;
+  }
+  @media (max-width: 360px) {
+    gap: 36%;
+  }
+}
+
+.line2 {
+  display: flex;
+  gap: 74px;
+  @media (max-width: 1150px) {
+    flex-wrap: wrap;
+  }
+  @media (max-width: 768px) {
+    flex-wrap: initial;
+    gap: 45px;
+  }
+  @media (max-width: 640px) {
+    gap: 50%;
+  }
+  @media (max-width: 570px) {
+    gap: 40%;
+  }
+  @media (max-width: 520px) {
+    gap: 40%;
+  }
+  @media (max-width: 460px) {
+    gap: 30%;
+  }
+  @media (max-width: 420px) {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+.logo {
+  @media (max-width: 768px) {
+    width: 50px;
+  }
+}
+
+.footer {
+  background-color: #068486;
+  @media (max-width: 1150px) {
+    display: flex;
+    flex-direction: column;
+  }
+  @media (max-width: 768px) {
+    display: initial;
+    flex-direction: initial;
+  }
+}

@@ -1,0 +1,63 @@
+.personsItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  img {
+    margin-bottom: 17px;
+  }
+}
+
+.personPhoto {
+  width: 137px;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+  img {
+    width: 12px;
+  }
+}
+
+.title {
+  font-family: Andada Pro;
+  font-size: 24px;
+  line-height: 31px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-family: Andada Pro;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #292f2e;
+  margin-bottom: 9px;
+}
+
+.description {
+  font-family: Andada Pro;
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: 400;
+  color: #2d2727;
+  margin-bottom: 18px;
+  width: 100px;
+}
+
+.icon {
+  width: 138px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  img {
+    width: 12px;
+  }
+}
+
+.box {
+  display: flex;
+  gap: 20px;
+}
